@@ -4,7 +4,7 @@ import {quotes} from '../assets/index';
 
 const FeedbackCards = ({content, name, title, img}) => (
  
-        <div className='flex justify-between flex-col px-6 py-12 max-w-[320px] md:mr-10 sm:mr-5 mr-0 my-5 rounded-[20px] feedback-card'>
+        <div className='flex justify-between flex-col px-6 py-12 max-w-[335px] md:mr-10 sm:mr-5 mr-0 my-5 rounded-[20px] feedback-card'>
         <img src={quotes} alt="quotes"  className="w-[42.6px] h-[27.6px] object-contain" />
         <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">{content}</p>
         <div className='flex flex-row'>
